@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.11'
 gem 'rvm-capistrano'
 gem 'sqlite3'
-
+gem 'execjs'
 
 # Gems used only for assets and not required
 # in production environments by default.

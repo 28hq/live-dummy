@@ -118,6 +118,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  execjs
   rails (= 3.2.11)
   rvm-capistrano
   sass-rails (~> 3.2.3)
