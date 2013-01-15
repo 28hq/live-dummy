@@ -127,7 +127,6 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
-  libv8
   rails (= 3.2.11)
   rvm-capistrano
   sass-rails (~> 3.2.3)
