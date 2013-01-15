@@ -16,3 +16,4 @@
 .rvmrc
 Capfile
 config/deploy.rb
+config/database.yml
