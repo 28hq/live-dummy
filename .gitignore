@@ -17,3 +17,4 @@
 Capfile
 config/deploy.rb
 config/database.yml
+config/deploy.rb.bak
