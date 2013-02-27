@@ -8,7 +8,7 @@ gem 'rails', '3.2.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
+gem 'pg'
 gem 'therubyracer', :platforms => :ruby
 gem 'libv8', '~> 3.11.8'
 gem 'jquery-rails'
