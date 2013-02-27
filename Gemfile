@@ -8,32 +8,30 @@ gem 'rails', '3.2.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-# gem 'mysql2'
-# gem 'therubyracer', :platforms => :ruby
-# gem 'libv8', '~> 3.11.8'
-# gem 'jquery-rails'
+gem 'mysql2'
+gem 'therubyracer', :platforms => :ruby
+gem 'libv8', '~> 3.11.8'
+gem 'jquery-rails'
 
 
 # Gems used only for assets and not required
 # in production environments by default.
-# group :assets do
-#   gem 'sass-rails',   '~> 3.2.3'
-#   gem 'coffee-rails', '~> 3.2.1'
+group :assets do
+  gem 'sass-rails',   '~> 3.2.3'
+  gem 'coffee-rails', '~> 3.2.1'
 
-#   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-#   # gem 'therubyracer', :platforms => :ruby
+  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
+  # gem 'therubyracer', :platforms => :ruby
 
-#   gem 'uglifier', '>= 1.0.3'
-# end
+  gem 'uglifier', '>= 1.0.3'
+end
 
-# group :test do
-#   gem 'cucumber-rails', '1.0.1'
-#   gem 'rspec-rails', '2.6.1'
-#   gem 'database_cleaner', '0.6.7'
-#   gem 'factory_girl_rails', '~> 1.1'
-# end
-
-# gem 'jquery-rails'
+group :test do
+  gem 'cucumber-rails', '1.0.1'
+  gem 'rspec-rails', '2.6.1'
+  gem 'database_cleaner', '0.6.7'
+  gem 'factory_girl_rails', '~> 1.1'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
